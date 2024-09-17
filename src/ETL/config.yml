@@ -1,0 +1,15 @@
+params:
+  dimension_table_1: restaurant_dim_table
+  dimension_table_2: location_dim_table
+  fact_table_1: fact_table
+  dimension_table_1_columns: ['NAME', 'CUSINE_CATEGORY', 'CUSINETYPE', 'TIMING', 'RATING_TYPE']
+  dimension_table_2_columns: ['REGION', 'Latitude', 'Longitude', 'CITY']
+  fact_table_1_columns: ['RATING', 'VOTES', 'PRICE','restaurant_id','location_id']
+  null_percentage_limit : 60
+  dtype_mapping: {'object': 'TEXT',
+                'int64': 'BIGINT',
+                'float64': 'FLOAT',
+                'datetime64': 'DATETIME',
+                'bool': 'TINYINT',
+                'category': 'TEXT',
+                'timedelta[ns]': 'TEXT'}
