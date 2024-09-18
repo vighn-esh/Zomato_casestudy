@@ -1,0 +1,33 @@
+# Database configuration
+database:
+  sqlite_db_path: "../Main_DB/zomato_DB.sqlite"  # Path to the SQLite database
+  fact_table: "restaurant_fact_table"            # The name of the table to extract data from
+
+# Model parameters for Linear Regression
+linear_regression:
+  test_size: 0.2     # 20% of data for testing
+  random_state: 42   # Seed for reproducibility
+
+# Model parameters for Decision Tree
+DT:
+  max_depth: 6            # Maximum depth of the tree
+  criterion: "gini"       # Criterion to measure the quality of the split ('gini' for classification)
+
+# Handling missing data
+missing_value_strategy:
+  numerical: "median"     # Strategy to fill missing values in numerical columns
+
+# Column names and target configuration
+columns:
+  target_column: "RATING"  # The target column to predict
+  selected_features:
+    - CUSINETYPE           # Matches the actual column name
+    - CITY                 # Matches the actual column name
+    - VOTES
+    - PRICE
+    - RATING_TYPE          # Matches the actual column name
+    - CUSINE_CATEGORY      # If you want to include this
+
+
+logging:
+  level: "INFO"  # Set logging level (INFO, DEBUG, ERROR)
