@@ -1,6 +1,6 @@
 import pandas as pd
 from sqlalchemy import create_engine
-from utils.config import read_config
+
 
 
 
