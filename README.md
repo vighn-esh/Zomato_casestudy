@@ -24,9 +24,9 @@
 2. **Staging**: The raw dataset is cleaned, validated, and loaded into a staging table in a SQLite database.
 3. **Transformation**: Data transformations and exploratory data analysis (EDA) are performed to extract insights. Fact and dimension tables are created using a star schema approach and stored in MySQL.
 4. **Loading**: The processed data is loaded into Power BI for dashboard creation and analysis.
-5. **Predictive Analysis**: The final phase involves building predictive models to forecast restaurant ratings. After testing different models (Linear Regression, Decision Tree Regression, Random Forest Regression
+5. **Predictive Analysis**: The final phase involves building predictive models to forecast restaurant ratings. After testing different models (Linear Regression, Decision Tree Regression, Random Forest Regression.
    
-##Tableu  Dash board
+## Tableu  Dash board
 ![Dashboard](https://github.com/user-attachments/assets/87a600fb-1e29-470a-8ed4-eb005b011856)
 
 
