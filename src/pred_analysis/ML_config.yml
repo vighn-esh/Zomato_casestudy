@@ -1,0 +1,26 @@
+database:
+  sqlite_db_path: "../Main_DB/zomato_DB.sqlite"
+
+params:
+  fact_table_1: "fact_table"
+  dimension_table_1: "restaurant_dimension_table"
+  dimension_table_2: "location_dimension_table"
+  Target_column: 'RATING'
+  selected_columns_for_prediction: ['CUSINETYPE', 'CITY', 'cusine_count', 'RATING_TYPE', 'VOTES', 'PRICE']
+  rating_type_category_mapping:
+    'Excellent': 5
+    'Very Good': 4
+    'Good': 3
+    'Average': 2
+    'Poor': 1
+  test_size: 0.3
+  random_state: 42
+
+DT:
+  max_depth: 6
+  criterion: 'friedman_mse'
+
+RF:
+  max_depth: 10
+  n_estimators: 100
+  criterion: 'friedman_mse'

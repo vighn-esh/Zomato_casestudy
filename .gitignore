@@ -2,3 +2,5 @@ data/
 DB/
 Main_DB/
 _pycache_/
+db/
+logs/

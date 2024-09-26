@@ -1,0 +1,28 @@
+{
+    "file_path": {
+      "raw_data":"C:/Users/vighnesh/Desktop/Zomato_Dataset",
+      "enriched_data":"data/processed/enriched_data.csv",
+      "staging_db":"sqlite:///db/staging_db.db/",
+      "main_db":"sqlite:///db/main_db.db/",
+      "initial_data":"data/raw/initial.csv"
+      },
+    "params": {
+    "dimension_table_1": "restaurant_dim_table",
+    "dimension_table_2": "location_dim_table",
+    "fact_table_1": "fact_table",
+    "restaurant_dimension_table_columns": ["NAME", "CUSINE_CATEGORY", "CUSINETYPE", "TIMING", "RATING_TYPE"],
+    "location_dimension_table_columns": ["REGION", "Latitude", "Longitude", "CITY"],
+    "fact_table_1_columns": ["RATING", "VOTES", "PRICE"],
+    "null_limit": 60,
+    "dtype_mapping": {
+    "object": "TEXT",
+    "int64": "INTEGER",
+    "float64": "REAL",
+    "datetime64": "TEXT",
+    "bool": "INTEGER",
+    "category": "TEXT",
+    "timedelta[ns]": "TEXT"
+  }
+  }
+  }
+  
