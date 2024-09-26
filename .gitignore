@@ -1,6 +1,6 @@
 data/
 DB/
 Main_DB/
-_pycache_/
+__pycache__/
 db/
 logs/
