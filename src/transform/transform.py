@@ -61,10 +61,11 @@ def create_fact_table(engine, data,config):
     initial_sql = f"CREATE TABLE IF NOT EXISTS {sql_table_name} (fact_id INTEGER PRIMARY KEY"
     
     for col in columns:
-        dtype = str(data[col].dtype)
-        sqlite_dtype = config['params']['dtype_mapping'].get(dtype)
-        if sqlite_dtype:
-            initial_sql += f", {col} {sqlite_dtype}"
+        if col not in ['restaurant_id',"location_id"]:
+            dtype = str(data[col].dtype)
+            sqlite_dtype = config['params']['dtype_mapping'].get(dtype)
+            if sqlite_dtype:
+                initial_sql += f", {col} {sqlite_dtype}"
    
     initial_sql += ", restaurant_id INTEGER, location_id INTEGER"
     initial_sql += ", FOREIGN KEY (restaurant_id) REFERENCES restaurant_dim_table(id)"
@@ -82,14 +83,18 @@ def transform():
     table_name = "staging_db"
     engine = create_engine(db_path)
     df = load_df(engine, table_name)
+    df['restaurant_id'] = df.index
+    df['location_id'] = df.index
+    db_path = config["file_path"]["main_db"]
+    engine = create_engine(db_path)
     null_limit = config['params']['null_limit']
     df = remove_columns_with_high_null_percentage(df, null_limit)
     df = drop_duplicates(df)
     df = convert_object_to_numeric(df)
     restaurant_columns = config['params']['restaurant_dimension_table_columns']
     location_columns = config['params']['location_dimension_table_columns']
-    create_dimension_table(engine, df, 'restaurant_dim_table', restaurant_columns, config)
-    create_dimension_table(engine, df, 'location_dim_table', location_columns, config)
+    create_dimension_table(engine, df, 'restaurant_dimension_table', restaurant_columns, config)
+    create_dimension_table(engine, df, 'location_dimension_table', location_columns, config)
     create_fact_table(engine, df, config)
     logging.info("Transformation process completed successfully.")
     return df

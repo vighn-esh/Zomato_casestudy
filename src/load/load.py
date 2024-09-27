@@ -46,6 +46,10 @@ def load():
     db_path = config["file_path"]["staging_db"]
     engine = create_engine(db_path)
     data=load_df(engine,"staging_db")
+    db_path = config["file_path"]["main_db"]
+    engine = create_engine(db_path)
+    data['restaurant_id'] = data.index
+    data['location_id'] = data.index
 
     restaurant_columns = config['params'] ['restaurant_dimension_table_columns']
     #restaurant_columns_name = config['params'] ['dimension_table_1_columns']
@@ -59,6 +63,7 @@ def load():
 
     fact_table_name = config['params'] ['fact_table_1']  
     fact_columns = config['params'] ['fact_table_1_columns']
+
     load_data_into_table(data, "fact_table", engine, columns=fact_columns)
  
     logging.info("Loading data completed.")

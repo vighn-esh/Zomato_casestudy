@@ -1,0 +1,315 @@
+2024-09-26 15:12:31 - INFO - Starting extraction process...
+2024-09-26 15:12:31 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-26 15:12:31 - INFO - Merging the CSV files complete
+2024-09-26 15:12:31 - INFO - Extraction complete.
+2024-09-26 15:12:31 - INFO - Extracted data dimension: (105623, 14)
+2024-09-26 15:12:31 - INFO - Starting staging process...
+2024-09-26 15:12:31 - INFO - SQL executed successfully.
+2024-09-26 15:12:32 - INFO - Staging complete.
+2024-09-26 15:12:32 - INFO - Starting transformation process...
+2024-09-26 15:12:33 - INFO - Dropped columns: []
+2024-09-26 15:12:33 - INFO - Left NAME as object type.
+2024-09-26 15:12:33 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-26 15:12:33 - INFO - Left CITY as object type.
+2024-09-26 15:12:33 - INFO - Left REGION as object type.
+2024-09-26 15:12:33 - INFO - Left URL as object type.
+2024-09-26 15:12:33 - INFO - Left CUSINETYPE as object type.
+2024-09-26 15:12:33 - INFO - Left TIMING as object type.
+2024-09-26 15:12:33 - INFO - Left RATING_TYPE as object type.
+2024-09-26 15:12:33 - INFO - Left VOTES as object type.
+2024-09-26 15:12:33 - INFO - SQL executed successfully.
+2024-09-26 15:12:33 - INFO - Created dimension table: restaurant_dim_table
+2024-09-26 15:12:33 - INFO - SQL executed successfully.
+2024-09-26 15:12:33 - INFO - Created dimension table: location_dim_table
+2024-09-26 15:12:33 - INFO - SQL executed successfully.
+2024-09-26 15:12:33 - INFO - Created fact table.
+2024-09-26 15:12:33 - INFO - Transformation process completed successfully.
+2024-09-26 15:12:33 - INFO - Transformed data dimension: (105623, 14)
+2024-09-26 15:12:33 - INFO - Transformation complete.
+2024-09-26 15:12:33 - INFO - Starting loading process...
+2024-09-26 15:12:35 - INFO - Loading data completed.
+2024-09-26 15:12:35 - INFO - Loading complete.
+2024-09-26 15:13:20 - INFO - Starting extraction process...
+2024-09-26 15:13:20 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-26 15:13:21 - INFO - Merging the CSV files complete
+2024-09-26 15:13:21 - INFO - Extraction complete.
+2024-09-26 15:13:21 - INFO - Extracted data dimension: (105623, 14)
+2024-09-26 15:13:21 - INFO - Starting staging process...
+2024-09-26 15:13:21 - INFO - SQL executed successfully.
+2024-09-26 15:13:22 - INFO - Staging complete.
+2024-09-26 15:13:22 - INFO - Starting transformation process...
+2024-09-26 15:13:22 - INFO - Dropped columns: []
+2024-09-26 15:13:23 - INFO - Left NAME as object type.
+2024-09-26 15:13:23 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-26 15:13:23 - INFO - Left CITY as object type.
+2024-09-26 15:13:23 - INFO - Left REGION as object type.
+2024-09-26 15:13:23 - INFO - Left URL as object type.
+2024-09-26 15:13:23 - INFO - Left CUSINETYPE as object type.
+2024-09-26 15:13:23 - INFO - Left TIMING as object type.
+2024-09-26 15:13:23 - INFO - Left RATING_TYPE as object type.
+2024-09-26 15:13:23 - INFO - Left VOTES as object type.
+2024-09-26 15:13:23 - INFO - SQL executed successfully.
+2024-09-26 15:13:23 - INFO - Created dimension table: restaurant_dim_table
+2024-09-26 15:13:23 - INFO - SQL executed successfully.
+2024-09-26 15:13:23 - INFO - Created dimension table: location_dim_table
+2024-09-26 15:13:23 - INFO - SQL executed successfully.
+2024-09-26 15:13:23 - INFO - Created fact table.
+2024-09-26 15:13:23 - INFO - Transformation process completed successfully.
+2024-09-26 15:13:23 - INFO - Transformed data dimension: (105623, 14)
+2024-09-26 15:13:23 - INFO - Transformation complete.
+2024-09-26 15:13:23 - INFO - Starting loading process...
+2024-09-26 15:13:25 - INFO - Loading data completed.
+2024-09-26 15:13:25 - INFO - Loading complete.
+2024-09-26 15:28:37 - INFO - Starting extraction process...
+2024-09-26 15:28:37 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-26 15:28:37 - INFO - Merging the CSV files complete
+2024-09-26 15:28:37 - INFO - Extraction complete.
+2024-09-26 15:28:37 - INFO - Extracted data dimension: (105623, 14)
+2024-09-26 15:28:37 - INFO - Starting staging process...
+2024-09-26 15:28:37 - INFO - SQL executed successfully.
+2024-09-26 15:28:39 - INFO - Staging complete.
+2024-09-26 15:28:39 - INFO - Starting transformation process...
+2024-09-26 15:28:39 - INFO - Dropped columns: []
+2024-09-26 15:28:39 - INFO - Left NAME as object type.
+2024-09-26 15:28:39 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-26 15:28:39 - INFO - Left CITY as object type.
+2024-09-26 15:28:39 - INFO - Left REGION as object type.
+2024-09-26 15:28:39 - INFO - Left URL as object type.
+2024-09-26 15:28:39 - INFO - Left CUSINETYPE as object type.
+2024-09-26 15:28:39 - INFO - Left TIMING as object type.
+2024-09-26 15:28:39 - INFO - Left RATING_TYPE as object type.
+2024-09-26 15:28:39 - INFO - Left VOTES as object type.
+2024-09-26 15:28:39 - INFO - SQL executed successfully.
+2024-09-26 15:28:39 - INFO - Created dimension table: restaurant_dim_table
+2024-09-26 15:28:39 - INFO - SQL executed successfully.
+2024-09-26 15:28:39 - INFO - Created dimension table: location_dim_table
+2024-09-26 15:28:39 - INFO - SQL executed successfully.
+2024-09-26 15:28:39 - INFO - Created fact table.
+2024-09-26 15:28:39 - INFO - Transformation process completed successfully.
+2024-09-26 15:28:39 - INFO - Transformed data dimension: (105623, 14)
+2024-09-26 15:28:39 - INFO - Transformation complete.
+2024-09-26 15:28:39 - INFO - Starting loading process...
+2024-09-26 15:30:19 - INFO - Starting extraction process...
+2024-09-26 15:30:19 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-26 15:30:19 - INFO - Merging the CSV files complete
+2024-09-26 15:30:19 - INFO - Extraction complete.
+2024-09-26 15:30:19 - INFO - Extracted data dimension: (105623, 14)
+2024-09-26 15:30:19 - INFO - Starting staging process...
+2024-09-26 15:30:19 - INFO - SQL executed successfully.
+2024-09-26 15:30:20 - INFO - Staging complete.
+2024-09-26 15:30:20 - INFO - Starting transformation process...
+2024-09-26 15:30:21 - INFO - Dropped columns: []
+2024-09-26 15:30:21 - INFO - Left NAME as object type.
+2024-09-26 15:30:21 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-26 15:30:21 - INFO - Left CITY as object type.
+2024-09-26 15:30:21 - INFO - Left REGION as object type.
+2024-09-26 15:30:21 - INFO - Left URL as object type.
+2024-09-26 15:30:21 - INFO - Left CUSINETYPE as object type.
+2024-09-26 15:30:21 - INFO - Left TIMING as object type.
+2024-09-26 15:30:21 - INFO - Left RATING_TYPE as object type.
+2024-09-26 15:30:21 - INFO - Left VOTES as object type.
+2024-09-26 15:30:21 - INFO - SQL executed successfully.
+2024-09-26 15:30:21 - INFO - Created dimension table: restaurant_dim_table
+2024-09-26 15:30:21 - INFO - SQL executed successfully.
+2024-09-26 15:30:21 - INFO - Created dimension table: location_dim_table
+2024-09-26 15:30:21 - INFO - SQL executed successfully.
+2024-09-26 15:30:21 - INFO - Created fact table.
+2024-09-26 15:30:21 - INFO - Transformation process completed successfully.
+2024-09-26 15:30:21 - INFO - Transformed data dimension: (105623, 14)
+2024-09-26 15:30:21 - INFO - Transformation complete.
+2024-09-26 15:30:21 - INFO - Starting loading process...
+2024-09-26 15:30:23 - INFO - Loading data completed.
+2024-09-26 15:30:24 - INFO - Loading complete.
+2024-09-26 17:27:35 - INFO - Starting extraction process...
+2024-09-26 17:27:35 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-26 17:27:35 - INFO - Merging the CSV files complete
+2024-09-26 17:27:35 - INFO - Extraction complete.
+2024-09-26 17:27:35 - INFO - Extracted data dimension: (105623, 14)
+2024-09-26 17:27:35 - INFO - Starting staging process...
+2024-09-26 17:27:35 - INFO - SQL executed successfully.
+2024-09-26 17:27:37 - INFO - Staging complete.
+2024-09-26 17:27:37 - INFO - Starting transformation process...
+2024-09-26 17:27:37 - INFO - Dropped columns: []
+2024-09-26 17:27:38 - INFO - Left NAME as object type.
+2024-09-26 17:27:38 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-26 17:27:38 - INFO - Left CITY as object type.
+2024-09-26 17:27:38 - INFO - Left REGION as object type.
+2024-09-26 17:27:38 - INFO - Left URL as object type.
+2024-09-26 17:27:38 - INFO - Left CUSINETYPE as object type.
+2024-09-26 17:27:38 - INFO - Left TIMING as object type.
+2024-09-26 17:27:38 - INFO - Left RATING_TYPE as object type.
+2024-09-26 17:27:38 - INFO - Left VOTES as object type.
+2024-09-26 17:27:38 - INFO - SQL executed successfully.
+2024-09-26 17:27:38 - INFO - Created dimension table: restaurant_dim_table
+2024-09-26 17:27:38 - INFO - SQL executed successfully.
+2024-09-26 17:27:38 - INFO - Created dimension table: location_dim_table
+2024-09-26 17:27:38 - INFO - SQL executed successfully.
+2024-09-26 17:27:38 - INFO - Created fact table.
+2024-09-26 17:27:38 - INFO - Transformation process completed successfully.
+2024-09-26 17:27:38 - INFO - Transformed data dimension: (105623, 16)
+2024-09-26 17:27:38 - INFO - Transformation complete.
+2024-09-26 17:27:38 - INFO - Starting loading process...
+2024-09-26 17:29:32 - INFO - Starting extraction process...
+2024-09-26 17:29:32 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-26 17:29:32 - INFO - Merging the CSV files complete
+2024-09-26 17:29:32 - INFO - Extraction complete.
+2024-09-26 17:29:32 - INFO - Extracted data dimension: (105623, 14)
+2024-09-26 17:29:32 - INFO - Starting staging process...
+2024-09-26 17:29:32 - INFO - SQL executed successfully.
+2024-09-26 17:29:33 - INFO - Staging complete.
+2024-09-26 17:29:33 - INFO - Starting transformation process...
+2024-09-26 17:29:34 - INFO - Dropped columns: []
+2024-09-26 17:29:34 - INFO - Left NAME as object type.
+2024-09-26 17:29:34 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-26 17:29:34 - INFO - Left CITY as object type.
+2024-09-26 17:29:34 - INFO - Left REGION as object type.
+2024-09-26 17:29:34 - INFO - Left URL as object type.
+2024-09-26 17:29:34 - INFO - Left CUSINETYPE as object type.
+2024-09-26 17:29:34 - INFO - Left TIMING as object type.
+2024-09-26 17:29:34 - INFO - Left RATING_TYPE as object type.
+2024-09-26 17:29:34 - INFO - Left VOTES as object type.
+2024-09-26 17:29:34 - INFO - SQL executed successfully.
+2024-09-26 17:29:34 - INFO - Created dimension table: restaurant_dim_table
+2024-09-26 17:29:34 - INFO - SQL executed successfully.
+2024-09-26 17:29:34 - INFO - Created dimension table: location_dim_table
+2024-09-26 17:29:34 - ERROR - SQL execution failed: duplicate column name: restaurant_id
+2024-09-26 17:31:50 - INFO - Starting extraction process...
+2024-09-26 17:31:50 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-26 17:31:51 - INFO - Merging the CSV files complete
+2024-09-26 17:31:51 - INFO - Extraction complete.
+2024-09-26 17:31:51 - INFO - Extracted data dimension: (105623, 14)
+2024-09-26 17:31:51 - INFO - Starting staging process...
+2024-09-26 17:31:51 - INFO - SQL executed successfully.
+2024-09-26 17:31:52 - INFO - Staging complete.
+2024-09-26 17:31:52 - INFO - Starting transformation process...
+2024-09-26 17:31:53 - INFO - Dropped columns: []
+2024-09-26 17:31:53 - INFO - Left NAME as object type.
+2024-09-26 17:31:53 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-26 17:31:53 - INFO - Left CITY as object type.
+2024-09-26 17:31:53 - INFO - Left REGION as object type.
+2024-09-26 17:31:53 - INFO - Left URL as object type.
+2024-09-26 17:31:53 - INFO - Left CUSINETYPE as object type.
+2024-09-26 17:31:53 - INFO - Left TIMING as object type.
+2024-09-26 17:31:53 - INFO - Left RATING_TYPE as object type.
+2024-09-26 17:31:53 - INFO - Left VOTES as object type.
+2024-09-26 17:31:53 - INFO - SQL executed successfully.
+2024-09-26 17:31:53 - INFO - Created dimension table: restaurant_dim_table
+2024-09-26 17:31:53 - INFO - SQL executed successfully.
+2024-09-26 17:31:53 - INFO - Created dimension table: location_dim_table
+2024-09-26 17:31:53 - ERROR - SQL execution failed: duplicate column name: restaurant_id
+2024-09-27 12:54:13 - INFO - Starting extraction process...
+2024-09-27 12:54:13 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-27 12:54:13 - INFO - Merging the CSV files complete
+2024-09-27 12:54:13 - INFO - Extraction complete.
+2024-09-27 12:54:13 - INFO - Extracted data dimension: (105623, 14)
+2024-09-27 12:54:13 - INFO - Starting staging process...
+2024-09-27 12:54:13 - INFO - SQL executed successfully.
+2024-09-27 12:54:14 - INFO - Staging complete.
+2024-09-27 12:54:14 - INFO - Starting transformation process...
+2024-09-27 12:54:15 - INFO - Dropped columns: []
+2024-09-27 12:54:15 - INFO - Left NAME as object type.
+2024-09-27 12:54:15 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-27 12:54:15 - INFO - Left CITY as object type.
+2024-09-27 12:54:15 - INFO - Left REGION as object type.
+2024-09-27 12:54:15 - INFO - Left URL as object type.
+2024-09-27 12:54:15 - INFO - Left CUSINETYPE as object type.
+2024-09-27 12:54:15 - INFO - Left TIMING as object type.
+2024-09-27 12:54:15 - INFO - Left RATING_TYPE as object type.
+2024-09-27 12:54:15 - INFO - Left VOTES as object type.
+2024-09-27 12:54:15 - INFO - SQL executed successfully.
+2024-09-27 12:54:15 - INFO - Created dimension table: restaurant_dim_table
+2024-09-27 12:54:15 - INFO - SQL executed successfully.
+2024-09-27 12:54:15 - INFO - Created dimension table: location_dim_table
+2024-09-27 12:54:15 - ERROR - SQL execution failed: duplicate column name: restaurant_id
+2024-09-27 13:00:19 - INFO - Starting extraction process...
+2024-09-27 13:00:19 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-27 13:00:19 - INFO - Merging the CSV files complete
+2024-09-27 13:00:19 - INFO - Extraction complete.
+2024-09-27 13:00:19 - INFO - Extracted data dimension: (105623, 14)
+2024-09-27 13:00:19 - INFO - Starting staging process...
+2024-09-27 13:00:19 - INFO - SQL executed successfully.
+2024-09-27 13:00:20 - INFO - Staging complete.
+2024-09-27 13:00:20 - INFO - Starting transformation process...
+2024-09-27 13:00:21 - INFO - Dropped columns: []
+2024-09-27 13:00:21 - INFO - Left NAME as object type.
+2024-09-27 13:00:21 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-27 13:00:21 - INFO - Left CITY as object type.
+2024-09-27 13:00:21 - INFO - Left REGION as object type.
+2024-09-27 13:00:21 - INFO - Left URL as object type.
+2024-09-27 13:00:21 - INFO - Left CUSINETYPE as object type.
+2024-09-27 13:00:21 - INFO - Left TIMING as object type.
+2024-09-27 13:00:21 - INFO - Left RATING_TYPE as object type.
+2024-09-27 13:00:21 - INFO - Left VOTES as object type.
+2024-09-27 13:00:21 - INFO - SQL executed successfully.
+2024-09-27 13:00:21 - INFO - Created dimension table: restaurant_dim_table
+2024-09-27 13:00:21 - INFO - SQL executed successfully.
+2024-09-27 13:00:21 - INFO - Created dimension table: location_dim_table
+2024-09-27 13:00:21 - INFO - SQL executed successfully.
+2024-09-27 13:00:21 - INFO - Created fact table.
+2024-09-27 13:00:21 - INFO - Transformation process completed successfully.
+2024-09-27 13:00:21 - INFO - Transformed data dimension: (105623, 16)
+2024-09-27 13:00:21 - INFO - Transformation complete.
+2024-09-27 13:00:21 - INFO - Starting loading process...
+2024-09-27 13:00:21 - INFO - Loading complete.
+2024-09-27 13:01:59 - INFO - Starting extraction process...
+2024-09-27 13:01:59 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-27 13:01:59 - INFO - Merging the CSV files complete
+2024-09-27 13:01:59 - INFO - Extraction complete.
+2024-09-27 13:01:59 - INFO - Extracted data dimension: (105623, 14)
+2024-09-27 13:01:59 - INFO - Starting staging process...
+2024-09-27 13:01:59 - INFO - SQL executed successfully.
+2024-09-27 13:02:00 - INFO - Staging complete.
+2024-09-27 13:02:00 - INFO - Starting transformation process...
+2024-09-27 13:02:01 - INFO - Dropped columns: []
+2024-09-27 13:02:01 - INFO - Left NAME as object type.
+2024-09-27 13:02:01 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-27 13:02:01 - INFO - Left CITY as object type.
+2024-09-27 13:02:01 - INFO - Left REGION as object type.
+2024-09-27 13:02:01 - INFO - Left URL as object type.
+2024-09-27 13:02:01 - INFO - Left CUSINETYPE as object type.
+2024-09-27 13:02:01 - INFO - Left TIMING as object type.
+2024-09-27 13:02:01 - INFO - Left RATING_TYPE as object type.
+2024-09-27 13:02:01 - INFO - Left VOTES as object type.
+2024-09-27 13:02:01 - INFO - SQL executed successfully.
+2024-09-27 13:02:01 - INFO - Created dimension table: restaurant_dim_table
+2024-09-27 13:02:01 - INFO - SQL executed successfully.
+2024-09-27 13:02:01 - INFO - Created dimension table: location_dim_table
+2024-09-27 13:02:01 - INFO - SQL executed successfully.
+2024-09-27 13:02:01 - INFO - Created fact table.
+2024-09-27 13:02:01 - INFO - Transformation process completed successfully.
+2024-09-27 13:02:01 - INFO - Transformed data dimension: (105623, 16)
+2024-09-27 13:02:01 - INFO - Transformation complete.
+2024-09-27 13:02:01 - INFO - Starting loading process...
+2024-09-27 13:02:03 - INFO - Loading data completed.
+2024-09-27 13:02:03 - INFO - Loading complete.
+2024-09-27 16:11:01 - INFO - Starting extraction process...
+2024-09-27 16:11:01 - INFO - data/processed/enriched_data.csv exists. Loading DataFrame from CSV.
+2024-09-27 16:11:02 - INFO - Merging the CSV files complete
+2024-09-27 16:11:02 - INFO - Extraction complete.
+2024-09-27 16:11:02 - INFO - Extracted data dimension: (105623, 14)
+2024-09-27 16:11:02 - INFO - Starting staging process...
+2024-09-27 16:11:02 - INFO - SQL executed successfully.
+2024-09-27 16:11:03 - INFO - Staging complete.
+2024-09-27 16:11:03 - INFO - Starting transformation process...
+2024-09-27 16:11:04 - INFO - Dropped columns: []
+2024-09-27 16:11:05 - INFO - Left NAME as object type.
+2024-09-27 16:11:05 - INFO - Left CUSINE_CATEGORY as object type.
+2024-09-27 16:11:05 - INFO - Left CITY as object type.
+2024-09-27 16:11:05 - INFO - Left REGION as object type.
+2024-09-27 16:11:05 - INFO - Left URL as object type.
+2024-09-27 16:11:05 - INFO - Left CUSINETYPE as object type.
+2024-09-27 16:11:05 - INFO - Left TIMING as object type.
+2024-09-27 16:11:05 - INFO - Left RATING_TYPE as object type.
+2024-09-27 16:11:05 - INFO - Left VOTES as object type.
+2024-09-27 16:11:05 - INFO - SQL executed successfully.
+2024-09-27 16:11:05 - INFO - Created dimension table: restaurant_dimension_table
+2024-09-27 16:11:05 - INFO - SQL executed successfully.
+2024-09-27 16:11:05 - INFO - Created dimension table: location_dimension_table
+2024-09-27 16:11:05 - INFO - SQL executed successfully.
+2024-09-27 16:11:05 - INFO - Created fact table.
+2024-09-27 16:11:05 - INFO - Transformation process completed successfully.
+2024-09-27 16:11:05 - INFO - Transformed data dimension: (105623, 16)
+2024-09-27 16:11:05 - INFO - Transformation complete.
+2024-09-27 16:11:05 - INFO - Starting loading process...
+2024-09-27 16:11:09 - INFO - Loading data completed.
+2024-09-27 16:11:09 - INFO - Loading complete.
